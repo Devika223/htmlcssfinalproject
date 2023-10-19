@@ -1,0 +1,505 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.nav{
+    height: 80px;
+    background-color: white;
+    display: flex;
+    position:relative;
+    top: 60px;
+    margin-left: 70px;
+    margin-right: 70px;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.container{
+    position: relative;
+    cursor: default;
+    margin:30px 30px 30px 30px;
+
+    height:600px;
+}  
+
+.nuuk{
+    position: relative;
+    right: 306px;
+    border: 0px;
+    margin-top:40px;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width: 200px;
+    display: flex;
+    background-color:orange;
+
+}
+a{
+    text-decoration: none;
+}
+.navik{
+    display: flex;
+    list-style-type: none;
+}
+.get{
+    height: 80px;
+    background-color: orange;
+    width: 160px;
+    border: 0px;
+
+}
+.nav-items{ height: 80PX;
+    margin-right: 30px;
+    padding-top: 30px;
+    color:black;
+    margin-left: 20px;
+
+}
+.nav-items:hover{
+    text-decoration: underline;
+    color: orange;
+    text-decoration-color: orange;
+}
+.intro{
+    margin-left: 70px;
+    margin-top:180px;
+    color: white;
+}
+.h1{
+    font-size: 60px;
+}
+.but2{
+    background-color: orange;
+    border: 0px;
+    padding: 30px;
+}
+.orenge-box{
+    margin-top: 120px;
+    background-color: coral;
+    width: 60%;
+    height: 200px;
+    margin-left: 585px;
+    display:grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    position: relative;
+    top: 100px;
+}
+.boxxx{
+    color: white;
+    justify-content: space-around;
+    align-self:center;
+
+}
+.special{
+    margin-top: 250px;
+    padding-left: 150px;
+}
+.head3{
+    font-weight: lighter;
+    font-size:40px;
+    color: black;
+}
+.sideone:hover{
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+.special{
+    margin-right: 50px;}
+    .specialization{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+    .spec{
+        height: 300px;
+        width: 300px;
+        color: #000;
+    }
+    .learn:hover{
+        text-decoration: underline;
+        text-decoration-color:red ;
+    }
+    .section3{
+        margin-top: 150px;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .about2{
+        margin-left: 30px;
+        line-height:35px;
+
+    }
+    .invest{
+        margin-top: 150px;
+        list-style-type: none;
+        display:flex;
+        justify-content: space-between;
+
+    }
+    .ivest-items{
+        margin-right: 50px;
+    }
+    .projects{
+        cursor: default;
+        margin-top: 150px;
+        background-color: aliceblue;
+        color: black;
+
+    }
+    .project-box{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 15px;
+    }
+
+    .great{
+        margin-top: 15px;
+        background:radial-gradient(orange,coral);
+        height: 300px;
+        color: white;
+        text-align:center;
+
+    }
+    .aboutus{
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .project-items{
+        position: relative; 
+    }
+    .project-items:hover .overlay{
+        display: flex;
+    }
+    .overlay {
+        position: absolute;
+        inset:0;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        background-color: #00000078;
+    }
+    .circle{
+        text-align: center;
+        background-color:coral;
+        border-radius: 50%;
+        color: white;
+        padding:20px ;
+        height: 80px;
+        width: 80px;
+    }
+    .mens{
+        margin-left:70px ;
+        margin-right: 70px;
+        display: grid;
+        grid-template-columns:auto auto auto auto;
+        grid-gap:30px ;
+
+    }
+    .details{
+        height: 400px;
+    }
+    .mens-margin{
+        padding-top: 20px;
+        text-align: center;
+        background-color: white;
+    }
+    .testimoni{
+        display: flex;
+    }
+    .test-side{
+        margin-left: 130px;
+        display: grid;
+
+        grid-template-columns: auto auto;
+
+    }
+    .side-boxx{
+        margin-right: 100px;
+        background-color: rgb(107, 89, 89);
+        color: white;
+        margin-top: 100px;
+        text-align: center;
+        padding: 50px;
+    }
+    .test-head{
+        padding-top:200px;
+        padding-left:50px;
+        padding-bottom:200px;
+    }
+    .latestt{
+        display: flex;
+        padding: 150px;
+        justify-content: space-between;
+        background-color: white;
+    }
+    .blogpost{
+        background-color: white;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 20px;
+        margin-left: 120px;
+        margin-right: 120px;
+    }
+    .blog-post{
+        background-color: coral;
+        color: white;
+        text-align: center;
+    }
+    .logoo{
+        margin-top: 100px;
+        height: 200px;
+        background-color: coral;
+
+    }
+    .logoo-list{
+        display: flex;
+        list-style: none;
+        color: white;
+        justify-content:space-between;
+        text-align: center;
+        padding-top: 100px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .footer{
+        padding: 90px;
+        height: 600px;
+        background-color: black;
+        margin-left: 90px;
+        margin-right:90px;
+    }
+    .footer-items{
+        color: white;
+        margin-right: 100px;
+
+    }
+
+    .linee{
+        height: 1px;
+        color: coral;
+        width:auto;
+        position:relative;
+        bottom: 15px;
+        margin-left:170px;
+
+    }
+    .footer{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    .abcde{
+        margin-left: 10px;
+    }
+
+    @media (max-width: 400px) {
+
+        .blogpost {
+
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+        .orenge-box{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+        .specialization{
+            display: block;
+            text-align: center;
+        }
+        .special{
+            position: relative;
+            right:100px;
+        }
+        #wert{
+            position: relative;
+            right: 40px;
+        }
+        .spec{margin: 0px;}
+        .mens{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+        .project-box{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+
+        }
+        .footer{
+            padding: 5px;
+            display: grid;
+            grid-template-columns: auto auto;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+        .footer-items{margin-right: 10px;}
+        .logoo-list{
+            display: block;
+            padding-top: 5px;
+
+        }
+        .latestt{
+            padding-left: 5px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .testimoni{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+        .side-boxx{
+            margin-right: 20px;
+        }
+        .test-side{
+            position: relative;
+            right: 55px;
+        }
+        .orenge-box{
+            width: 100%;
+        }
+        .great{
+            height: 400px;
+        }
+        .aboutus{
+            position: relative;
+            right: 50px;
+        }
+        #movee{
+            position: relative;
+            top: 50px;
+        }
+        .invest{
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+        .section3{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+        .about2{
+            margin-right: 5px;
+            padding: 5px;
+            line-height:20px;
+        }
+        #xyz{
+            margin-left: 5px;
+            margin-right: 5px;
+            padding: 0%;
+        }
+        #jkl{
+            height: 200px;
+            width: 300px;
+        }
+        .navik{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-left: 50px;
+            margin-right: 50px;
+            background-color:blueviolet,blue;
+            position: relative;
+            top:50px;
+            margin-top: 100px;
+            right: 50px;
+
+        }
+
+        .container{
+            width:auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+
+        }
+        .orenge-box{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+        .special{
+            margin-top:500px;
+            display: flex;
+            flex-wrap: wrap;
+
+        }
+        .intro{
+            width: 350px;
+            position: relative;
+            left: 50px;
+            top: 150px;
+        }
+        #fghj{
+            display: flex;
+            flex-wrap: wrap;
+            position: relative;
+            right: 20px;
+        }
+        .sideone{
+            margin-left: 0%;
+            position: relative;
+            right:380px;
+            top: 10px;
+        }
+        #qwer{
+            font-size: 30px;
+        }
+        #pqr{
+            position: relative;
+            right: 70px;
+        }
+        .orenge-box{
+            display: block;
+            height:400px;
+            width: 150px;
+            position: relative;
+            left: 40px;
+            padding: 0px;
+            line-height: 12px;
+            font-size: 12px;
+        }
+        .h1{
+            font-size: 30px;
+        }
+        .nav{
+            height: 0px;
+        }
+        .social{
+            display: none;
+
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
